@@ -5,9 +5,14 @@ languageCode = "en-au"
 theme="hello-friend-ng"
 
 [params.logo]
-  logoText = "zain-khan"      # This changes the "hello" part
-  logoHomeLink = "/"          # Or "https://zain-khan.dev" to go to your portfolio
-
+  logoText = "zain-khan"      
+  logoHomeLink = "/"          
+  
+[[menu.main]]
+  name = "RSS"
+  url = "/index.xml"
+  weight = 100
+  
 [[menu.main]]
   identifier = "posts"
   name       = "Posts"
