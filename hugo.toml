@@ -4,6 +4,10 @@ description = "Arch Linux, Custom ROMs, and Self-Hosting"
 languageCode = "en-au"
 theme="hello-friend-ng"
 
+[params.logo]
+  logoText = "zain-khan"      # This changes the "hello" part
+  logoHomeLink = "/"          # Or "https://zain-khan.dev" to go to your portfolio
+
 [[menu.main]]
   identifier = "posts"
   name       = "Posts"
