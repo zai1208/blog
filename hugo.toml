@@ -1,1 +1,4 @@
-baseUrl = 'blog.zain-khan.dev'
+baseURL = 'blog.zain-khan.dev'
+title = "Zain's Tech Blog"
+description = "Arch Linux, Custom ROMs, and Self-Hosting"
+languageCode = "en-au"
