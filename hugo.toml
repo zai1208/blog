@@ -3,3 +3,8 @@ title = "Zain's Tech Blog"
 description = "Arch Linux, Custom ROMs, and Self-Hosting"
 languageCode = "en-au"
 theme="hello-friend-ng"
+
+[[menu.main]]
+  identifier = "posts"
+  name       = "Posts"
+  url        = "/posts/"
