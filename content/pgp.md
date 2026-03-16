@@ -11,3 +11,5 @@ PGP key fingerprint:
 
 Download my public key:
 [pgp.asc](https://zain-khan.dev/pgp.asc)
+
+{{< pgp_banner >}}
