@@ -1,8 +1,0 @@
-{{ if eq .Kind "page" }}
-<div class="pgp-banner" style="border:1px solid #ccc; padding:0.5em; margin:2em 0; text-align:center; font-size:0.9em;">
-  ⚡ <strong>This post is PGP-verified.</strong><br>
-  Verify this post: 
-  <a href="{{ .RelPermalink }}.asc" target="_blank">{{ .File.BaseFileName }}.md.asc</a><br>
-  Public key: <a href="/pgp.asc" target="_blank">pgp.asc</a>
-</div>
-{{ end }}
