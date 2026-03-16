@@ -12,4 +12,4 @@ Man, DNS takes forever to update, changing my domain on GitHub pages took foreve
 
 Well yeah, I guess that's this little adventure I had yesterday. Idk, I'm not good at this blogging thing.
 
-Keep tuned for the next blog? idk.
+Stay tuned for the next blog? idk.
