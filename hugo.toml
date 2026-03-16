@@ -39,3 +39,6 @@ theme="hello-friend-ng"
 [[params.social]]
   name = "email"
   url = "mailto:contact@zain-khan.dev"
+[[params.social]]
+  name = "gpg"
+  url = "pgp.asc"
