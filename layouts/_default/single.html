@@ -1,0 +1,22 @@
+{{ define "main" }}
+
+  <!-- Include theme header -->
+  {{ partial "header.html" . }}
+
+  <!-- Post content -->
+  <article class="post-content">
+    <h1>{{ .Title }}</h1>
+    <p class="post-meta">
+      {{ .Date.Format "2 Jan 2006" }} • {{ with .Params.author }}{{ . }}{{ end }}
+    </p>
+
+    {{ .Content }}
+
+    <!-- Dynamic PGP banner at bottom -->
+    {{< pgp_banner >}}
+  </article>
+
+  <!-- Include theme footer -->
+  {{ partial "footer.html" . }}
+
+{{ end }}
