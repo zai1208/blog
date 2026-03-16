@@ -21,13 +21,21 @@ theme="hello-friend-ng"
 [[params.social]]
   name = "github"
   url = "github.com/zai1208"
+[[params.social]]
   name = "twitter"
   url = "twitter.com/zai1208"
+[[params.social]]
   name = "bluesky"
   url = "bsky.app/profile/zain-khan.dev"
+[[params.social]]
   name = "matrix"
   url = "matrix.to/#/@zain-khan:matrix.org"
-  telegram = "https://t.me/zai1208"
+[[params.social]]
+  name = "telegram"
+  url = "https://t.me/zai1208"
+[[params.social]]
   name = "discord"
   url = "https://discord.com/ussers/1054414892034198086"
-
+[[params.social]]
+  name = "email"
+  url = "mailto:contact@zain-khan.dev"
