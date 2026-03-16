@@ -1,9 +1,6 @@
 {{ define "main" }}
-
-  <!-- Include theme header -->
   {{ partial "header.html" . }}
 
-  <!-- Post content -->
   <article class="post-content">
     <h1>{{ .Title }}</h1>
     <p class="post-meta">
@@ -12,11 +9,10 @@
 
     {{ .Content }}
 
-    <!-- Dynamic PGP banner at bottom -->
-    {{< pgp_banner >}}
+    <!-- PGP banner using partial -->
+    {{ partial "pgp_banner.html" . }}
+
   </article>
 
-  <!-- Include theme footer -->
   {{ partial "footer.html" . }}
-
 {{ end }}
