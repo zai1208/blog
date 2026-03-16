@@ -20,16 +20,16 @@ theme="hello-friend-ng"
 
 [[params.social]]
   name = "github"
-  url = "github.com/zai1208"
+  url = "https://github.com/zai1208"
 [[params.social]]
   name = "twitter"
-  url = "twitter.com/zai1208"
+  url = "https://twitter.com/zai1208"
 [[params.social]]
   name = "bluesky"
-  url = "bsky.app/profile/zain-khan.dev"
+  url = "https://bsky.app/profile/zain-khan.dev"
 [[params.social]]
   name = "matrix"
-  url = "matrix.to/#/@zain-khan:matrix.org"
+  url = "https://matrix.to/#/@zain-khan:matrix.org"
 [[params.social]]
   name = "telegram"
   url = "https://t.me/zai1208"
