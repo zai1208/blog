@@ -1,6 +1,13 @@
+{{ $ascPath := printf "%s.asc" .Page.File.BaseFileName }}
+{{ if fileExists (printf "content/%s" $ascPath) }}
 <div class="pgp-banner" style="border:1px solid #ccc; padding:0.5em; margin:1em 0; text-align:center; font-size:0.9em;">
   ⚡ <strong>This post is PGP-verified.</strong><br>
   Verify this post: 
   <a href="{{ .Page.RelPermalink }}.asc" target="_blank">{{ .Page.File.BaseFileName }}.md.asc</a><br>
   Public key: <a href="/pgp.asc" target="_blank">pgp.asc</a>
 </div>
+{{ else }}
+<div class="pgp-banner pgp-warning" style="border:1px solid #f00; padding:0.5em; margin:1em 0; text-align:center; font-size:0.9em; color:#900;">
+  ⚠️ <strong>Warning:</strong> Signed version missing! Authenticity cannot be verified.
+</div>
+{{ end }}
