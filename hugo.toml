@@ -35,7 +35,7 @@ theme="hello-friend-ng"
   url = "https://t.me/zai1209"
 [[params.social]]
   name = "discord"
-  url = "https://discord.com/ussers/957206535136763944"
+  url = "https://discord.com/users/957206535136763944"
 [[params.social]]
   name = "email"
   url = "mailto:contact@zain-khan.dev"
