@@ -38,7 +38,7 @@ This was honestly really straightforward cause all I had to do was just ignore t
 
 I already had a `.config` file that I used when compiling `linux-tkg` on arch so I would've just used that, but gemini suggested otherwise. So I copied the file over and used `make localmodconfig` to generate the proper config. I then compiled the kernel, wrote a little initramfs script with busybox of which at this point I managed to statically compile `cryptsetup` (that was a nightmare to statically link) and then gzipped the initramfs, and at the time copied the generated `bzImage` over to my arch host system and then used `systemd-ukify` to create a UKI. I tried booting aaaand nothing. It would just blackscreen. Turns out after a bit of debugging that I had to add `initrd=/init` to my CMDLINE. fixed that aaand kernel panic.
 
-![kernel panic](kernel-panic.jpg)
+![kernel panic](/images/kernel-panic.jpg)
 
 Guess what, I forgot to compile some drivers into my kernel and I believe I had some other issues with cryptsetup, a bit of debugging later and it would finally ask me for my LUKS password.
 
