@@ -52,7 +52,7 @@ After that we then had issues with me incorrectly setting up my runit directory 
 
 ![iwd errors](/images/iwd-errors.jpg)
 
-I couldn't find them, but after about 5 kernel recompiled iwd finally stopped blocking me and we got to a bash prompt. Yay!
+I couldn't find them, but after about 5 kernel recompiles iwd finally stopped blocking me and we got to a bash prompt. Yay!
 
 ![bash prompt in lfs](/images/bash-prompt.jpg)
 
